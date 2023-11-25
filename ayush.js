@@ -136,7 +136,7 @@ $(".overlay").click(() => {
 
 gsap.to(".image", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".image",
@@ -149,7 +149,7 @@ scrollTrigger: {
 })
 gsap.to(".skills_wrap_left", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".skills_wrap_left",
@@ -162,7 +162,7 @@ scrollTrigger: {
 })
 gsap.to(".craftImg ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".craftImg ",
@@ -175,7 +175,7 @@ scrollTrigger: {
 })
 gsap.to(".cateringImg ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".cateringImg ",
@@ -188,7 +188,7 @@ scrollTrigger: {
 })
 gsap.to(".clients ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".clients ",
@@ -201,7 +201,7 @@ scrollTrigger: {
 })
 gsap.to(".cateringImg ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".cateringImg ",
@@ -214,7 +214,7 @@ scrollTrigger: {
 })
 gsap.to(".netflixText ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".netflixText ",
@@ -227,7 +227,7 @@ scrollTrigger: {
 })
 gsap.to(".netflixText ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".netflixText ",
@@ -240,7 +240,7 @@ scrollTrigger: {
 })
 gsap.to(".seosText ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".seosText ",
@@ -254,7 +254,7 @@ scrollTrigger: {
 // slide_left
 gsap.to(".content ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".content ",
@@ -267,7 +267,7 @@ scrollTrigger: {
 })
 gsap.to(".second>h1", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: .1,
 scrollTrigger: {
     trigger: ".content>h2",
@@ -280,7 +280,7 @@ scrollTrigger: {
 })
 gsap.to(".skills_wrap_right ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".skills_wrap_right ",
@@ -293,7 +293,7 @@ scrollTrigger: {
 })
 gsap.to(".craftText ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".craftText ",
@@ -306,7 +306,7 @@ scrollTrigger: {
 })
 gsap.to(".cateringText ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".cateringText ",
@@ -320,7 +320,7 @@ scrollTrigger: {
 
 gsap.to(".netflixImg", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".netflixImg ",
@@ -333,7 +333,7 @@ scrollTrigger: {
 })
 gsap.to(".seosImg ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".seosImg ",
@@ -347,7 +347,7 @@ scrollTrigger: {
 
 gsap.to(".coffee ", {
  
-y: -100, duration: 1,
+y: -100, duration: .5,
 opacity: 1,
 scrollTrigger: {
     trigger: ".coffee ",
