@@ -840,7 +840,9 @@ ul.menu>li>a:hover {
     font-weight: 500;
     letter-spacing: 1px;
 }
-
+h1.count > span {
+    font-size: 9rem;
+}
 .skills_progress_bar span {
     position: absolute;
     top: -34px;
@@ -1166,17 +1168,8 @@ form .form_btn a:hover {
         height: 900px;
         margin: 80px 0;
     }
-
-    .seosImg,
-    .netflixImg {
-        position: absolute;
-        top: 0;
-    }
-
     .seosText,
     .netflixText {
-        position: absolute;
-        bottom: 0;
         margin-top: 50px;
         margin-bottom: 20px;
     }
@@ -1366,6 +1359,9 @@ form .form_btn a:hover {
 }
 
 @media (max-width: 390px) {
+    h1.count > span {
+    font-size: 8.5rem;
+}
     .form form{
         margin: 0 -20px;
     }
