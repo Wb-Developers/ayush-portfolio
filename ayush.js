@@ -47,7 +47,7 @@ scrollTrigger: {
     start: "40% 80%",
     end: "40% 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 onEnter: () => countIt(),
 
@@ -143,7 +143,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -156,7 +156,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -169,7 +169,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -182,7 +182,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -195,7 +195,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -208,7 +208,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -221,7 +221,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -234,7 +234,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -247,7 +247,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -261,7 +261,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -274,7 +274,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -287,7 +287,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -300,7 +300,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -313,7 +313,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -327,7 +327,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -340,7 +340,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
@@ -354,7 +354,7 @@ scrollTrigger: {
     start: "top 100%",
     end: "top 0%",
     
-    toggleActions: "restart reverse revese none",
+    
     markers: false,
 }
 })
