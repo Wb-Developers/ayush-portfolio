@@ -978,18 +978,6 @@ h1.count > span {
     opacity: 1;
 }
 
-.slide_right,
-.netflixText,
-.skills_wrap_left,
-.craftImg,
-.cateringImg,
-.clients,
-.seosText {
-    position: relative;
-    right: 100px;
-    opacity: 0;
-    top: 100px;
-}
 
 .content,
 .second>h1 {
@@ -998,17 +986,6 @@ h1.count > span {
     opacity: 0;
 }
 
-.skills_wrap_right,
-.coffee,
-.cateringText,
-.craftText,
-.seosImg,
-.netflixImg {
-    position: relative;
-    opacity: 0;
-    left: 100px;
-    bottom: 100px;
-}
 
 .menu_icon:hover {
     gap: 4px;
