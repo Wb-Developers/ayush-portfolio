@@ -135,7 +135,7 @@ $(".overlay").click(() => {
 });
 
 gsap.to(".image", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -148,7 +148,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".skills_wrap_left", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -161,7 +161,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".craftImg ", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -174,7 +174,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".cateringImg ", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -187,7 +187,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".clients ", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -200,7 +200,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".cateringImg ", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -213,7 +213,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".netflixText ", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -226,7 +226,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".netflixText ", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -239,7 +239,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".seosText ", {
-x: 100,
+ 
 y: -100,
 opacity: 1,
 scrollTrigger: {
@@ -253,7 +253,7 @@ scrollTrigger: {
 })
 // slide_left
 gsap.to(".content ", {
-x: -100,
+ 
 y: 100,
 opacity: 1,
 scrollTrigger: {
@@ -266,7 +266,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".second>h1", {
-x: -100,
+ 
 y: 100,
 opacity: .1,
 scrollTrigger: {
@@ -279,7 +279,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".skills_wrap_right ", {
-x: -100,
+ 
 y: 100,
 opacity: 1,
 scrollTrigger: {
@@ -292,7 +292,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".craftText ", {
-x: -100,
+ 
 y: 100,
 opacity: 1,
 scrollTrigger: {
@@ -305,7 +305,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".cateringText ", {
-x: -100,
+ 
 y: 100,
 opacity: 1,
 scrollTrigger: {
@@ -319,7 +319,7 @@ scrollTrigger: {
 })
 
 gsap.to(".netflixImg", {
-x: -100,
+ 
 y: 100,
 opacity: 1,
 scrollTrigger: {
@@ -332,7 +332,7 @@ scrollTrigger: {
 }
 })
 gsap.to(".seosImg ", {
-x: -100,
+ 
 y: 100,
 opacity: 1,
 scrollTrigger: {
@@ -346,7 +346,7 @@ scrollTrigger: {
 })
 
 gsap.to(".coffee ", {
-x: -100,
+ 
 y: 100,
 opacity: 1,
 scrollTrigger: {
