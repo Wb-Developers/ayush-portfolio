@@ -46,7 +46,7 @@ scrollTrigger: {
     trigger: ".counters",
     start: "40% 80%",
     end: "40% 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 onEnter: () => countIt(),
@@ -136,117 +136,117 @@ $(".overlay").click(() => {
 
 gsap.to(".image", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".image",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".skills_wrap_left", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".skills_wrap_left",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".craftImg ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".craftImg ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".cateringImg ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".cateringImg ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".clients ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".clients ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".cateringImg ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".cateringImg ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".netflixText ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".netflixText ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".netflixText ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".netflixText ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".seosText ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".seosText ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
@@ -254,65 +254,65 @@ scrollTrigger: {
 // slide_left
 gsap.to(".content ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".content ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".second>h1", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: .1,
 scrollTrigger: {
     trigger: ".content>h2",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".skills_wrap_right ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".skills_wrap_right ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".craftText ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".craftText ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".cateringText ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".cateringText ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
@@ -320,26 +320,26 @@ scrollTrigger: {
 
 gsap.to(".netflixImg", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".netflixImg ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
 gsap.to(".seosImg ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".seosImg ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
@@ -347,28 +347,14 @@ scrollTrigger: {
 
 gsap.to(".coffee ", {
  
-y: -100,
+y: -100, duration: 1,
 opacity: 1,
 scrollTrigger: {
     trigger: ".coffee ",
     start: "top 100%",
     end: "top 0%",
-    scrub: 1,
+    
     toggleActions: "restart reverse revese none",
     markers: false,
 }
 })
-
-
-const lenis = new Lenis()
-
-lenis.on('scroll', (e) => {
-  console.log(e)
-})
-
-function raf(time) {
-  lenis.raf(time)
-  requestAnimationFrame(raf)
-}
-
-requestAnimationFrame(raf)
