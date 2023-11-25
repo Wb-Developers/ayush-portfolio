@@ -984,14 +984,12 @@ ul.menu>li>a:hover {
 .clients,
 .seosText {
     position: relative;
-    right: 100px;
     opacity: 0;
     top: 100px;
 }
 
 .content,
 .second>h1 {
-    right: -100px !important;
     top: -100px;
     opacity: 0;
 }
@@ -1004,7 +1002,6 @@ ul.menu>li>a:hover {
 .netflixImg {
     position: relative;
     opacity: 0;
-    left: 100px;
     bottom: 100px;
 }
 
@@ -1109,8 +1106,6 @@ form .form_btn a:hover {
         margin: 0 auto;
         height: 110vh;
         box-sizing: border-box;
-        /* padding-left: 100px; */
-
     }
     .second .content {
         text-align: left;
