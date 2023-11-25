@@ -838,9 +838,7 @@ ul.menu>li>a:hover {
     font-weight: 500;
     letter-spacing: 1px;
 }
-h1.count > span {
-    font-size: 9rem;
-}
+
 .skills_progress_bar span {
     position: absolute;
     top: -34px;
@@ -978,6 +976,18 @@ h1.count > span {
     opacity: 1;
 }
 
+.slide_right,
+.netflixText,
+.skills_wrap_left,
+.craftImg,
+.cateringImg,
+.clients,
+.seosText {
+    position: relative;
+    right: 100px;
+    opacity: 0;
+    top: 100px;
+}
 
 .content,
 .second>h1 {
@@ -986,6 +996,17 @@ h1.count > span {
     opacity: 0;
 }
 
+.skills_wrap_right,
+.coffee,
+.cateringText,
+.craftText,
+.seosImg,
+.netflixImg {
+    position: relative;
+    opacity: 0;
+    left: 100px;
+    bottom: 100px;
+}
 
 .menu_icon:hover {
     gap: 4px;
@@ -1091,7 +1112,6 @@ form .form_btn a:hover {
         /* padding-left: 100px; */
 
     }
-
     .second .content {
         text-align: left;
         opacity: 1;
@@ -1143,6 +1163,7 @@ form .form_btn a:hover {
         height: 900px;
         margin: 80px 0;
     }
+
     .seosText,
     .netflixText {
         margin-top: 50px;
@@ -1334,9 +1355,6 @@ form .form_btn a:hover {
 }
 
 @media (max-width: 390px) {
-    h1.count > span {
-    font-size: 8.5rem;
-}
     .form form{
         margin: 0 -20px;
     }
