@@ -1,57 +1,57 @@
 // Percentage count down
-let countIt=()=>{
-const countDown1 = () => {
-    let Num = Number(document.getElementById('num95').innerHTML);
-    let newNum;
-    if (Num < 95) {
-        newNum = Num + 1;
-    } else {
-        newNum = 95;
+let countIt = () => {
+    const countDown1 = () => {
+        let Num = Number(document.getElementById('num95').innerHTML);
+        let newNum;
+        if (Num < 95) {
+            newNum = Num + 1;
+        } else {
+            newNum = 95;
+        }
+        document.getElementById('num95').innerHTML = newNum;
+        return newNum;
     }
-    document.getElementById('num95').innerHTML = newNum;
-    return newNum;
-}
-setInterval(countDown1, 40);
+    setInterval(countDown1, 40);
 
-const countDown2 = () => {
-    let Num = Number(document.getElementById('num70').innerHTML);
-    let newNum;
-    if (Num < 70) {
-        newNum = Num + 1;
-    } else {
-        newNum = 70;
+    const countDown2 = () => {
+        let Num = Number(document.getElementById('num70').innerHTML);
+        let newNum;
+        if (Num < 70) {
+            newNum = Num + 1;
+        } else {
+            newNum = 70;
+        }
+        document.getElementById('num70').innerHTML = newNum;
+        return newNum;
     }
-    document.getElementById('num70').innerHTML = newNum;
-    return newNum;
-}
-setInterval(countDown2, 40);
+    setInterval(countDown2, 40);
 
-const countDown3 = () => {
-    let Num = Number(document.getElementById('num90').innerHTML);
-    let newNum;
-    if (Num < 90) {
-        newNum = Num + 1;
-    } else {
-        newNum = 90;
+    const countDown3 = () => {
+        let Num = Number(document.getElementById('num90').innerHTML);
+        let newNum;
+        if (Num < 90) {
+            newNum = Num + 1;
+        } else {
+            newNum = 90;
+        }
+        document.getElementById('num90').innerHTML = newNum;
+        return newNum;
     }
-    document.getElementById('num90').innerHTML = newNum;
-    return newNum;
-}
-setInterval(countDown3, 40);
+    setInterval(countDown3, 40);
 
 }
 gsap.to(".counters ", {
-opacity: 1,
-scrollTrigger: {
-    trigger: ".counters",
-    start: "40% 80%",
-    end: "40% 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-onEnter: () => countIt(),
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".counters",
+        start: "40% 80%",
+        end: "40% 0%",
+        scrub: 1,
+        toggleActions: "restart reverse revese none",
+        markers: false,
+        onEnter: () => countIt(),
 
-}
+    }
 })
 
 // Progress-bar
@@ -61,302 +61,237 @@ const highlight = document.getElementById('progressHeight');
 let containerHeight;
 let containerPos;
 window.onscroll = () => {
-containerHeight = container.offsetHeight - window.innerHeight;
-containerPos = container.getBoundingClientRect();
-diff = containerHeight + containerPos.top;
-progressPercentage = diff / containerHeight * 100;
-cssWidth = Math.floor(100 - progressPercentage);
-highlight.style.width = cssWidth + "%";
+    containerHeight = container.offsetHeight - window.innerHeight;
+    containerPos = container.getBoundingClientRect();
+    diff = containerHeight + containerPos.top;
+    progressPercentage = diff / containerHeight * 100;
+    cssWidth = Math.floor(100 - progressPercentage);
+    highlight.style.width = cssWidth + "%";
 
-}     
+}
 // Responsive Menu
 $(document).ready(() => {
-$(".menu_icon").click(() => {
-    $(".overlay").addClass("show");
-    $("body").css("overflow-y", "hidden");
-    setTimeout(() => {
-        $(".mobile_menu").addClass("fade");
-    }, 400);
-    setTimeout(() => {
-        $(".close_btn").addClass("fade_bottom");
-    }, 900);
-    setTimeout(() => {
-        $(".mobile_menu ul li:first-child").addClass("fade_up");
-    }, 1000);
-    setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(2)").addClass("fade_up");
-    }, 1200); setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(3)").addClass("fade_up");
-    }, 1400); setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(4)").addClass("fade_up");
-    }, 1600); setTimeout(() => {
-        $(".mobile_menu ul li:last-child").addClass("fade_up");
-    }, 1800);
-});
-$(".close_btn>span").click(() => {
-    $(".overlay").removeClass("show");
-    $(".mobile_menu").removeClass("fade");
-    $(".close_btn").removeClass("fade_bottom");
-    setTimeout(() => {
-        $(".mobile_menu ul li:first-child").removeClass("fade_up");
-    }, 800);
-    setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(2)").removeClass("fade_up");
-    }, 700); setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(3)").removeClass("fade_up");
-    }, 600); setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(4)").removeClass("fade_up");
-    }, 500); setTimeout(() => {
-        $(".mobile_menu ul li:last-child").removeClass("fade_up");
-    }, 400);
-    $("body").css("overflow-y", "visible");
-});
-$(".overlay").click(() => {
-    $(".overlay").removeClass("show");
-    $(".mobile_menu").removeClass("fade");
-    $(".close_btn").removeClass("fade_bottom");
-    setTimeout(() => {
-        $(".mobile_menu ul li:first-child").removeClass("fade_up");
-    }, 800);
-    setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(2)").removeClass("fade_up");
-    }, 700); setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(3)").removeClass("fade_up");
-    }, 600); setTimeout(() => {
-        $(".mobile_menu ul li:nth-child(4)").removeClass("fade_up");
-    }, 500); setTimeout(() => {
-        $(".mobile_menu ul li:last-child").removeClass("fade_up");
-    }, 400);
-    $("body").css("overflow-y", "visible");
+    $(".menu_icon").click(() => {
+        $(".overlay").addClass("show");
+        $("body").css("overflow-y", "hidden");
+        setTimeout(() => {
+            $(".mobile_menu").addClass("fade");
+        }, 400);
+        setTimeout(() => {
+            $(".close_btn").addClass("fade_bottom");
+        }, 900);
+        setTimeout(() => {
+            $(".mobile_menu ul li:first-child").addClass("fade_up");
+        }, 1000);
+        setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(2)").addClass("fade_up");
+        }, 1200); setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(3)").addClass("fade_up");
+        }, 1400); setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(4)").addClass("fade_up");
+        }, 1600); setTimeout(() => {
+            $(".mobile_menu ul li:last-child").addClass("fade_up");
+        }, 1800);
+    });
+    $(".close_btn>span").click(() => {
+        $(".overlay").removeClass("show");
+        $(".mobile_menu").removeClass("fade");
+        $(".close_btn").removeClass("fade_bottom");
+        setTimeout(() => {
+            $(".mobile_menu ul li:first-child").removeClass("fade_up");
+        }, 800);
+        setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(2)").removeClass("fade_up");
+        }, 700); setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(3)").removeClass("fade_up");
+        }, 600); setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(4)").removeClass("fade_up");
+        }, 500); setTimeout(() => {
+            $(".mobile_menu ul li:last-child").removeClass("fade_up");
+        }, 400);
+        $("body").css("overflow-y", "visible");
+    });
+    $(".overlay").click(() => {
+        $(".overlay").removeClass("show");
+        $(".mobile_menu").removeClass("fade");
+        $(".close_btn").removeClass("fade_bottom");
+        setTimeout(() => {
+            $(".mobile_menu ul li:first-child").removeClass("fade_up");
+        }, 800);
+        setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(2)").removeClass("fade_up");
+        }, 700); setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(3)").removeClass("fade_up");
+        }, 600); setTimeout(() => {
+            $(".mobile_menu ul li:nth-child(4)").removeClass("fade_up");
+        }, 500); setTimeout(() => {
+            $(".mobile_menu ul li:last-child").removeClass("fade_up");
+        }, 400);
+        $("body").css("overflow-y", "visible");
+
+    });
+
 
 });
-
-
-});
-
-gsap.to(".image", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".image",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
+gsap.to(".slideUp_1", {
+    y: -100,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".slideUp_1",
+        start: "top 100%",
+        end: "top 0%",
+        markers: false,
+    }
 })
-gsap.to(".skills_wrap_left", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".skills_wrap_left",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".craftImg ", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".craftImg ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".cateringImg ", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".cateringImg ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".clients ", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".clients ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".cateringImg ", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".cateringImg ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".netflixText ", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".netflixText ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".netflixText ", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".netflixText ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".seosText ", {
-x: 100,
-y: -100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".seosText ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-// slide_left
-gsap.to(".content ", {
-x: -100,
-y: 100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".content ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".second>h1", {
-x: -100,
-y: 100,
-opacity: .1,
-scrollTrigger: {
-    trigger: ".content>h2",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".skills_wrap_right ", {
-x: -100,
-y: 100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".skills_wrap_right ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".craftText ", {
-x: -100,
-y: 100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".craftText ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".cateringText ", {
-x: -100,
-y: 100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".cateringText ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
+gsap.to(".slideUp_2", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".slideUp_2",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
 })
 
-gsap.to(".netflixImg", {
-x: -100,
-y: 100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".netflixImg ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
-})
-gsap.to(".seosImg ", {
-x: -100,
-y: 100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".seosImg ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
+gsap.to(".slideUp_3", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".slideUp_3",
+        start: "top 100%",
+        end: "top 40%",
+        scrub: 1,
+        markers: false,
+    }
 })
 
-gsap.to(".coffee ", {
-x: -100,
-y: 100,
-opacity: 1,
-scrollTrigger: {
-    trigger: ".coffee ",
-    start: "top 100%",
-    end: "top 0%",
-    scrub: 1,
-    toggleActions: "restart reverse revese none",
-    markers: false,
-}
+gsap.to(".fourth>div:first-child", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".fourth>div:first-child",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
+gsap.to(".fifth>div:first-child", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".fifth>div:first-child",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
 })
 
+gsap.to(".fourth>div:nth-child(2)", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".fourth>div:nth-child(2)",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
+
+gsap.to(".slideUp_6", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".slideUp_6",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
+gsap.to(".fourth>div:nth-child(3)", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".fourth>div:nth-child(3)",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
+gsap.to(".fourth>div:nth-child(4)", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".fourth>div:nth-child(4)",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
+gsap.to(".fourth>div:nth-child(5)", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".fourth>div:nth-child(5)",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
+
+
+gsap.to(".counters>div:first-child", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".counters>div:first-child",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
+gsap.to(".counters>div:nth-child(2)", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".counters>div:nth-child(2)",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
+gsap.to(".counters>div:nth-child(3)", {
+    y: -200,
+    duration: .5,
+    opacity: 1,
+    scrollTrigger: {
+        trigger: ".counters>div:nth-child(3)",
+        start: "top 100%",
+        end: "top 60%",
+        scrub: 1,
+        markers: false,
+    }
+})
 
