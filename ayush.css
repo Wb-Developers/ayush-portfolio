@@ -245,13 +245,14 @@ a:hover {
 }
 
 .first {
-    margin-top: 30px !important;
+    margin-top: 100px !important;
 
 }
 
 .second {
     margin-top: 100px !important;
 }
+
 .third {
     margin-top: 0 !important;
 }
@@ -427,7 +428,7 @@ a:hover {
 .second>h1 {
     position: absolute;
     z-index: 1;
-    top: -20px;
+    top: -50px;
     right: 1%;
     font-size: 130px;
     font-weight: bolder;
@@ -1082,6 +1083,7 @@ h1.count>span {
 .slideUp_6 {
     margin-top: 280px;
 }
+
 .slideUp_1,
 .slideUp_2,
 .slideUp_3,
@@ -1103,6 +1105,9 @@ h1.count>span {
 @media (max-width: 1200px) {
     .form {
         max-width: 90%;
+    }
+    .second>h1{
+        right: -5%;
     }
 }
 
@@ -1392,11 +1397,13 @@ h1.count>span {
         display: none;
     }
 }
-@media (min-width: 430px){
+
+@media (min-width: 430px) {
     .text {
         margin-right: -50px;
     }
 }
+
 @media (min-width: 430px) and (max-width: 760px) {
     .second .content {
         margin-top: 40px;
