@@ -1083,7 +1083,21 @@ h1.count>span {
     opacity: 1;
     margin-top: 280px;
 }
-
+.slideUp_1,
+.slideUp_2,
+.slideUp_3,
+.slideUp_6,
+.fourth>div:first-child,
+.fifth>div:first-child,
+.fourth>div:nth-child(2),
+.fourth>div:nth-child(3),
+.fourth>div:nth-child(4),
+.fourth>div:nth-child(5),
+.counters>div:first-child,
+.counters>div:nth-child(2),
+.counters>div:nth-child(3) {
+    opacity: 0;
+}
 
 /* Responsive */
 
