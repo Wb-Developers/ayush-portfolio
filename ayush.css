@@ -5,15 +5,22 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-p,h1,h2,h3,h4,h5 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Poppins', sans-serif;
     color: #fff;
     letter-spacing: .5px;
 }
+
 ::selection {
     background-color: #fff;
     color: #000;
 }
+
 #demo {
     width: 100%;
     border: 1px solid white;
@@ -89,7 +96,6 @@ a {
     position: relative;
     z-index: 2;
     background-color: transparent;
-    /* border: 1px solid white; */
 }
 
 .nav {
@@ -97,6 +103,8 @@ a {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 9999;
 }
 
 .logo>a {
@@ -190,9 +198,6 @@ a {
     background-color: rgba(29, 29, 29, 0.559) !important;
     display: block !important;
     transition: .3s all;
-
-    /* z-index: 10 !important;
-opacity: 1 !important; */
 }
 
 #menu {
@@ -227,10 +232,8 @@ a:hover {
     font-weight: bolder;
     transition: .2s ease;
     width: 100%;
-    /* display: inline-block; */
     border-bottom: 2px dotted white;
     letter-spacing: 4px;
-    /* border-left: 2px solid white; */
     text-transform: uppercase;
     transition: all .4s;
 }
@@ -239,11 +242,18 @@ a:hover {
 .second {
     width: 100%;
     position: relative;
-    margin-top: 30px;
+}
+
+.first {
+    margin-top: 30px !important;
+
 }
 
 .second {
-    margin-top: 100px;
+    margin-top: 100px !important;
+}
+.third {
+    margin-top: 0 !important;
 }
 
 .slidOne,
@@ -432,7 +442,7 @@ a:hover {
 }
 
 .whatDo {
-    height: 80vh;
+    padding-bottom: 15vh;
     width: 100%;
     color: white;
     display: flex;
@@ -440,7 +450,6 @@ a:hover {
     justify-content: center;
     text-align: center;
     letter-spacing: 2px;
-    /* word-spacing: 6px; */
 }
 
 .whatDo>p {
@@ -450,7 +459,6 @@ a:hover {
     margin: 0;
     display: inline-block;
     box-sizing: border-box;
-    padding-top: 180px;
 }
 
 .whatDo>h1 {
@@ -524,7 +532,7 @@ a:hover {
 
 .hov:hover {
     display: block;
-    box-shadow: 0px 0px 20px 4px #232222;
+    box-shadow: 0px 0px 20px 1px #000;
 }
 
 .hov>a {
@@ -629,11 +637,11 @@ a:hover {
 }
 
 .projectDone {
-    margin: 40px 40%;
+    margin: 40px 37%;
 }
 
 .coffee {
-    margin: 40px 70%;
+    margin: 40px 0 40px 65%;
 }
 
 .counters>div>p {
@@ -682,6 +690,7 @@ a:hover {
 .contact {
     text-align: center;
     margin: 50px;
+    margin-bottom: -300px;
 }
 
 .contact>a {
@@ -723,7 +732,6 @@ a:hover {
     z-index: 10;
     position: relative;
     margin: 200px auto;
-    /* rotate: 20deg; */
     border-right: 1px solid white;
 }
 
@@ -818,9 +826,11 @@ ul.menu>li>a:hover {
     font-weight: 400;
     line-height: 32.4px;
 }
+
 .skills_wrapper {
     margin: 150px auto;
 }
+
 .skills_wrapper h4 {
     font-size: 22px;
     line-height: 30px;
@@ -828,9 +838,11 @@ ul.menu>li>a:hover {
     color: #fff;
     margin-bottom: 10px;
 }
+
 .skills_progress-wrap {
     margin-bottom: 40px;
 }
+
 .skills_wrapper h2 {
     font-size: 40px;
     line-height: 50px;
@@ -862,6 +874,7 @@ ul.menu>li>a:hover {
     border-radius: 30px;
 
 }
+
 .skills_progress_bar:after {
     position: absolute;
     top: -3px;
@@ -872,6 +885,7 @@ ul.menu>li>a:hover {
     background: #2f89fc;
     border-radius: 50%;
 }
+
 .mobile_menu {
     position: fixed;
     z-index: 20;
@@ -976,77 +990,59 @@ ul.menu>li>a:hover {
     opacity: 1;
 }
 
-.slide_right,
-.netflixText,
-.skills_wrap_left,
-.craftImg,
-.cateringImg,
-.clients,
-.seosText {
-    position: relative;
-    opacity: 0;
-    top: 100px;
-}
-
-.content,
-.second>h1 {
-    top: -100px;
-    opacity: 0;
-}
-
-.skills_wrap_right,
-.coffee,
-.cateringText,
-.craftText,
-.seosImg,
-.netflixImg {
-    position: relative;
-    opacity: 0;
-    bottom: 100px;
-}
-
 .menu_icon:hover {
     gap: 4px;
 }
+
 /* contact page */
 .fullName {
     display: flex;
     justify-content: space-between;
 }
-.fullName > div {
+
+.fullName>div {
     width: 45%;
 }
+
 .form {
     max-width: 70%;
     margin: 50px auto;
     padding: 20px;
 }
+
 form label {
     letter-spacing: .6px;
-    color:#c3bfbf;
+    color: #c3bfbf;
     display: block;
     margin: 4px 0;
 }
-form > div {
+
+form>div {
     margin: 20px;
 }
+
 .name_wrap input {
-    width: 100%;   
+    width: 100%;
 }
+
 .email_wrap input {
-    width: 100%;   
+    width: 100%;
 }
-form input, form textarea {
+
+form input,
+form textarea {
     outline: 0;
     border: 0;
     background-color: #383838;
     color: #fff;
     padding: 6px;
 }
+
 form textarea {
     width: 100%;
     white-space: normal;
 }
+
 form .form_btn a {
     color: #fff;
     background-color: var(--blue);
@@ -1056,30 +1052,47 @@ form .form_btn a {
     border-radius: 2px;
     letter-spacing: .6px;
 }
+
 form .form_btn a:hover {
     background: #1a2366;
 }
-.form .whatDo{
+
+.form .whatDo {
     height: auto;
     padding: 30px;
 }
+
 .form .whatDo>p {
     padding: 0;
 }
+
 #thanking_msg {
     display: none;
 }
 
+h1.count>span {
+    font-size: 9rem;
+}
 
+.slideUp_1,
+.slideUp_2,
+.slideUp_3,
+.slideUp_4,
+.slideUp_5,
+.slideUp_6 {
+    opacity: 1;
+    margin-top: 280px;
+}
 
 
 /* Responsive */
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     .form {
         max-width: 90%;
     }
 }
+
 @media (max-width: 950px) {
 
     #page {
@@ -1106,7 +1119,10 @@ form .form_btn a:hover {
         margin: 0 auto;
         height: 110vh;
         box-sizing: border-box;
+        /* padding-left: 100px; */
+
     }
+
     .second .content {
         text-align: left;
         opacity: 1;
@@ -1190,7 +1206,7 @@ form .form_btn a:hover {
 }
 
 @media (max-width: 760px) {
-    .form{
+    .form {
         max-width: 100%;
     }
 
@@ -1317,9 +1333,10 @@ form .form_btn a:hover {
 }
 
 @media (max-width:550px) {
-    .form{
+    .form {
         padding: 0;
     }
+
     .content {
         left: 0 !important;
         width: 90% !important;
@@ -1350,17 +1367,28 @@ form .form_btn a:hover {
 }
 
 @media (max-width: 390px) {
-    .form form{
+    h1.count>span {
+        font-size: 8.5rem;
+    }
+
+    .form form {
         margin: 0 -20px;
     }
+
     .name {
         display: none;
     }
 }
-@media (min-width: 430px) and (max-width:  760px){
+@media (min-width: 430px){
+    .text {
+        margin-right: -50px;
+    }
+}
+@media (min-width: 430px) and (max-width: 760px) {
     .second .content {
         margin-top: 40px;
     }
+
     .second .image {
         background-position: center;
         margin: 30px 0;
