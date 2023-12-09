@@ -163,56 +163,214 @@ gsap.to(".seo", {
     
     
     });
-    
-    gsap.to(".image", {
-    x: 100,
-    y: -100,
-    duration: 1,
-    opacity: 1,
-    scrollTrigger: {
-        trigger: ".image",
-        start: "top 100%",
-        end: "top 0%",
-        markers: false,
-    }
+    gsap.to(".slideUp_1", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".slideUp_1",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
     })
-  
-    // slide_left
-    gsap.to(".content ", {
-    x: -100,
-    y: 100,
-    duration: 1,
-    opacity: 1,
-    scrollTrigger: {
-        trigger: ".content ",
-        start: "top 100%",
-        end: "top 0%",
-        markers: false,
-    }
+    gsap.to(".row", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".row",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
     })
-    gsap.to(".second>h1", {
-    x: -100,
-    y: 100,
-    duration: 1,
-    opacity: .1,
-    scrollTrigger: {
-        trigger: ".content>h2",
-        start: "top 100%",
-        end: "top 0%",
-        markers: false,
-    }
+    gsap.to(".profile_wrap>p", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".profile_wrap>p",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
     })
-    
-    
-    // const lenis = new Lenis()
-    
-    // lenis.on('scroll', (e) => {
-    //   console.log(e)
-    // })
-    
-    // function raf(time) {
-    //   lenis.raf(time)
-    //   requestAnimationFrame(raf)
-    // }
-    
-    // requestAnimationFrame(raf)
+    gsap.to(".profile_wrap>h4", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".profile_wrap>h4",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".profile_wrap>h2", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".profile_wrap>h2",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+
+
+    gsap.to(".skills_wrapper h2", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper h2",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(2)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(2)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(3)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(3)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(4)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(4)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(5)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(5)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(6)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(6)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(7)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(7)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(8)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(8)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(9)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(9)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(10)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(10)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(11)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(11)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".skills_wrapper>div:nth-child(12)", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".skills_wrapper>div:nth-child(12)",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".sixth .icons", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".sixth .icons",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
+    gsap.to(".sixth .contact", {
+        y: -100,
+        duration: .5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".sixth .contact",
+            start: "top 100%",
+            end: "top 0%",
+            markers: false,
+        }
+    })
